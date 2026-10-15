@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#101c21">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <meta name="referrer" content="no-referrer">
+  <meta name="description" content="A private professional portfolio. Access by invitation.">
+  <title>Private Portfolio · By Invitation</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="gate.css">
+  <script src="unlock.js" defer></script>
+</head>
+<body>
+  <header class="masthead">
+    <a class="brand" href="./" aria-label="Private portfolio, home"><span class="brand-mark" aria-hidden="true">P<span>·</span></span><span>PRIVATE PORTFOLIO</span></a>
+    <span class="invitation"><span class="status-dot" aria-hidden="true"></span> ACCESS BY INVITATION</span>
+  </header>
+  <main class="access-layout">
+    <div class="editorial" aria-hidden="true">
+      <span class="section-number">01 — AN INTRODUCTION</span>
+      <div class="sculpture"><span class="ring ring-a"></span><span class="ring ring-b"></span><span class="ring ring-c"></span><span class="axis axis-a"></span><span class="axis axis-b"></span><span class="sculpture-dot"></span><span class="sculpture-label">PERSPECTIVE<br>IN EVERY DETAIL.</span></div>
+      <div class="editorial-bottom"><span>A considered perspective.</span><span>FINANCE / WEALTH MANAGEMENT</span></div>
+    </div>
+    <section class="access-card" aria-labelledby="access-title">
+      <p class="eyebrow"><span></span> PRIVATE ACCESS</p>
+      <h1 id="access-title">A closer look.<br><em>By invitation.</em></h1>
+      <p class="intro">A collection of experience, research, and the thinking behind the numbers.</p>
+      <form id="unlock-form" novalidate>
+        <label for="portfolio-password">Enter your access password</label>
+        <div class="password-field">
+          <input id="portfolio-password" name="password" type="password" autocomplete="current-password" spellcheck="false" autocapitalize="none" required aria-describedby="password-help access-status caps-warning">
+          <button class="visibility-button" type="button" id="toggle-password" aria-label="Show password" aria-pressed="false">Show</button>
+        </div>
+        <p id="caps-warning" class="caps-warning" hidden>Caps Lock is on.</p>
+        <button class="unlock-button" id="unlock-button" type="submit"><span id="button-label">Enter portfolio</span><span class="button-arrow" aria-hidden="true">↗</span></button>
+        <p id="access-status" class="access-status" role="status" aria-live="polite"></p>
+        <p id="password-help" class="password-help"><svg viewBox="0 0 16 18" width="12" height="14" aria-hidden="true"><path d="M4 7V5a4 4 0 0 1 8 0v2M2 7h12v9H2zM8 10v3"/></svg>Encrypted portfolio. Refresh to lock again.</p>
+      </form>
+      <noscript><p class="noscript">JavaScript is needed to unlock this encrypted portfolio.</p></noscript>
+    </section>
+  </main>
+  <footer><span>THOUGHTFUL ANALYSIS. CLEAR PERSPECTIVE.</span><span class="footer-right">PRIVATE &amp; CONFIDENTIAL <span aria-hidden="true">↗</span></span></footer>
+</body>
+</html>
